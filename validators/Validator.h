@@ -18,6 +18,7 @@ public:
 
     void addChild(Validator *validator);
 
+protected:
     Type validateAndGetTypeFromChildren(const std::string &token);
 };
 

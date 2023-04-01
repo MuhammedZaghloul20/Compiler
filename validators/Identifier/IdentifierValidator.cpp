@@ -5,7 +5,7 @@
 #include "IdentifierValidator.h"
 
 Type IdentifierValidator::validateAndGetType(std::string token) {
-    if (token[0] >= '0' && token[0] <= '9')
+    if (token[0] < 'A' || token[0] > 'z')
         return Undefined;
     Type childType = validateAndGetTypeFromChildren(token);
     if (childType != Undefined)
