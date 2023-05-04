@@ -1,0 +1,44 @@
+﻿  MyForm.cpp
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Types.h(1,12): error C2011: 'Types': 'enum' type redefinition
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Types.h(1,6): message : see declaration of 'Types'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Validator.h(10,17): error C2011: 'Validator': 'class' type redefinition
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Validator.h(10,7): message : see declaration of 'Validator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\SymbolValidator.h(8,42): error C2504: 'Validator': base class undefined
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\SymbolValidator.h(12,11): error C3668: 'SymbolValidator::validateAndGetType': method with override specifier 'override' did not override any base class methods
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\SymbolValidator.h(8,23): error C2011: 'SymbolValidator': 'class' type redefinition
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\SymbolValidator.h(8,7): message : see declaration of 'SymbolValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\LogicalOperatorValidator.h(5,57): error C2504: 'SymbolValidator': base class undefined
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\LogicalOperatorValidator.h(9,11): error C3668: 'LogicalOperatorValidator::validateAndGetType': method with override specifier 'override' did not override any base class methods
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Number\NumberValidator.h(8,42): error C2504: 'Validator': base class undefined
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Number\NumberValidator.h(10,11): error C3668: 'NumberValidator::validateAndGetType': method with override specifier 'override' did not override any base class methods
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\IdentifierValidator.h(9,46): error C2504: 'Validator': base class undefined
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\IdentifierValidator.h(11,11): error C3668: 'IdentifierValidator::validateAndGetType': method with override specifier 'override' did not override any base class methods
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\IdentifierValidator.h(9,27): error C2011: 'IdentifierValidator': 'class' type redefinition
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\IdentifierValidator.h(9,7): message : see declaration of 'IdentifierValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\KeyWordValidator.h(10,53): error C2504: 'IdentifierValidator': base class undefined
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\KeyWordValidator.h(14,11): error C3668: 'KeyWordValidator::validateAndGetType': method with override specifier 'override' did not override any base class methods
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(72,14): error C2079: 'validator' uses undefined class 'Validator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(72,35): error C2027: use of undefined type 'Validator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Validator.h(10,7): message : see declaration of 'Validator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(75,20): error C2079: 'symbolValidator' uses undefined class 'SymbolValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(75,53): error C2027: use of undefined type 'SymbolValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Symbol\SymbolValidator.h(8,7): message : see declaration of 'SymbolValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(77,24): error C2079: 'identifierValidator' uses undefined class 'IdentifierValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(77,65): error C2027: use of undefined type 'IdentifierValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\validators\Identifier\IdentifierValidator.h(9,7): message : see declaration of 'IdentifierValidator'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(80,20): error C2039: 'addChild': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(81,20): error C2039: 'addChild': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(83,24): error C2039: 'addChild': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(85,14): error C2039: 'addChild': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(86,14): error C2039: 'addChild': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(87,14): error C2039: 'addChild': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.h(98,55): error C2039: 'validateAndGetType': is not a member of 'System::Int32'
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\MyForm.cpp(6,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  IdentifierValidator.cpp
+  KeyWordValidator.cpp
+  NumberValidator.cpp
+  ArithmeticOperatorValidator.cpp
+  LogicalOperatorValidator.cpp
+  SymbolValidator.cpp
+  Validator.cpp
+  Generating Code...

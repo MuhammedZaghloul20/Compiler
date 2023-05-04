@@ -1,0 +1,4 @@
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\x64\Debug\CompilerProject.vcxproj.AssemblyReference.cache
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\x64\Debug\CompilerProject.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\x64\Debug\CompilerProject.MyForm.resources
+C:\Users\mndo2\source\repos\CompilerProject\CompilerProject\x64\Debug\CompilerProject.vcxproj.GenerateResource.cache
